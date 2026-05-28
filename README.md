@@ -1,7 +1,5 @@
 # Youtube Element Remover
 
-<img src="images/icon-128.png" width="96" alt="Youtube Element Remover icon">
-
 A lightweight Chrome extension for hiding distracting YouTube interface elements.
 
 ## Current Behavior
