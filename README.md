@@ -8,6 +8,16 @@ A lightweight Chrome extension for hiding distracting YouTube interface elements
 - Hides recommended videos in the right-side panel on video watch pages.
 - Hides front-page video grids, Shorts sections, and topic chips.
 
+## Preview
+
+### Clean Watch Page
+
+![YouTube watch page with recommendations hidden](screenshots/watch-page-clean.png)
+
+### Clean Home Page
+
+![YouTube home page with videos and Shorts hidden](screenshots/home-feed-clean.png)
+
 ## Local Development
 
 1. Open Chrome and go to `chrome://extensions`.
