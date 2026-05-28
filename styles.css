@@ -1,0 +1,12 @@
+/* styles.css */
+.ytd-guide-renderer:nth-child(2){
+    display: none !important;
+}
+
+.ytd-guide-renderer:nth-child(3){
+    display: none !important;
+}
+
+.ytd-guide-renderer:nth-child(4){
+    display: none !important;
+}

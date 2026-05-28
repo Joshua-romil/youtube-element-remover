@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Packaged extension artifacts
+*.crx
+*.pem
+dist/
+build/

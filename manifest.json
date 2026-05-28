@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Element Remover",
+  "version": "1.0",
+  "description": "Removes side panel elements from YouTube.com",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
