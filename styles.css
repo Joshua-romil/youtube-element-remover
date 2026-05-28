@@ -1,12 +1,28 @@
-/* styles.css */
-.ytd-guide-renderer:nth-child(2){
-    display: none !important;
+/* Hide selected guide/sidebar sections. */
+.ytd-guide-renderer:nth-child(2),
+.ytd-guide-renderer:nth-child(3),
+.ytd-guide-renderer:nth-child(4) {
+  display: none !important;
 }
 
-.ytd-guide-renderer:nth-child(3){
-    display: none !important;
+/* Hide recommended videos on video watch pages. */
+ytd-watch-flexy #secondary,
+ytd-watch-flexy #secondary-inner,
+ytd-watch-flexy ytd-watch-next-secondary-results-renderer,
+ytd-watch-flexy ytd-related-chip-cloud-renderer {
+  display: none !important;
 }
 
-.ytd-guide-renderer:nth-child(4){
-    display: none !important;
+ytd-watch-flexy #primary {
+  margin-right: 0 !important;
+}
+
+/* Hide the front-page feed, including videos, Shorts, and topic chips. */
+ytd-browse[page-subtype="home"] ytd-feed-filter-chip-bar-renderer,
+ytd-browse[page-subtype="home"] ytd-rich-grid-renderer,
+ytd-browse[page-subtype="home"] ytd-rich-section-renderer,
+ytd-browse[page-subtype="home"] ytd-rich-item-renderer,
+ytd-browse[page-subtype="home"] ytd-reel-shelf-renderer,
+ytd-browse[page-subtype="home"] ytd-shelf-renderer {
+  display: none !important;
 }

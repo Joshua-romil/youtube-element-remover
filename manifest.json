@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Youtube Element Remover",
-  "version": "1.0",
-  "description": "Removes side panel elements from YouTube.com",
-  "permissions": ["activeTab"],
+  "version": "1.1",
+  "description": "Hides distracting sidebar, recommendation, homepage video, and Shorts sections on YouTube.",
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],

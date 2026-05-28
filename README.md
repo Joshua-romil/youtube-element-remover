@@ -5,11 +5,8 @@ A lightweight Chrome extension for hiding distracting YouTube interface elements
 ## Current Behavior
 
 - Hides selected items from the YouTube guide/sidebar using CSS.
-
-## Planned Changes
-
-- Hide recommended videos in the right-side panel on video watch pages.
-- Hide front-page video grids, including Shorts sections.
+- Hides recommended videos in the right-side panel on video watch pages.
+- Hides front-page video grids, Shorts sections, and topic chips.
 
 ## Local Development
 
