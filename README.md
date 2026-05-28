@@ -27,6 +27,10 @@ A lightweight Chrome extension for hiding distracting YouTube interface elements
 4. Select this project folder.
 5. Refresh YouTube after making changes.
 
+## Privacy
+
+See [PRIVACY.md](PRIVACY.md).
+
 ## Project Structure
 
 - `manifest.json`: Chrome extension manifest.
