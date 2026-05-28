@@ -10,6 +10,14 @@ Thumbs.db
 # Logs
 *.log
 
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.cert
+*.p12
+
 # Packaged extension artifacts
 *.crx
 *.pem
