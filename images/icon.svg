@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Youtube Element Remover icon">
+  <rect x="7" y="7" width="114" height="114" rx="24" fill="#14191d"/>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="22.5" fill="none" stroke="#2e353d" stroke-width="3"/>
+
+  <rect x="24" y="35" width="65" height="50" rx="7" fill="#0b1115" stroke="#f6f7f8" stroke-width="5"/>
+  <path d="M46 49v22l20-11z" fill="#f6f7f8"/>
+  <rect x="31" y="78" width="47" height="4" rx="2" fill="#3a4149"/>
+  <rect x="31" y="78" width="22" height="4" rx="2" fill="#ff3b2f"/>
+  <circle cx="55" cy="80" r="4" fill="#f6f7f8"/>
+
+  <rect x="95" y="39" width="13" height="10" rx="2" fill="#ff3b2f"/>
+  <rect x="95" y="54" width="13" height="10" rx="2" fill="#ec3128" opacity="0.86"/>
+  <rect x="95" y="69" width="13" height="10" rx="2" fill="#d42822" opacity="0.62"/>
+  <rect x="95" y="84" width="13" height="10" rx="2" fill="#b91f1c" opacity="0.38"/>
+
+  <circle cx="113" cy="45" r="2.2" fill="#ff5a45"/>
+  <circle cx="118" cy="53" r="1.8" fill="#ff5a45" opacity="0.85"/>
+  <circle cx="114" cy="62" r="1.7" fill="#ff5a45" opacity="0.7"/>
+  <circle cx="120" cy="72" r="1.4" fill="#ff5a45" opacity="0.55"/>
+  <circle cx="113" cy="82" r="1.2" fill="#ff5a45" opacity="0.4"/>
+  <circle cx="119" cy="93" r="1" fill="#ff5a45" opacity="0.28"/>
+</svg>

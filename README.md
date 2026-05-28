@@ -33,3 +33,4 @@ A lightweight Chrome extension for hiding distracting YouTube interface elements
 - `popup.html`, `popup.css`, and `scripts/popup.js`: Extension popup and toggle behavior.
 - `scripts/content.js`: Applies the saved toggle state to YouTube pages.
 - `styles.css`: CSS injected into YouTube pages.
+- `tools/generate-icons.mjs`: Regenerates extension PNG icons from the vector icon style.
