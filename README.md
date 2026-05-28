@@ -7,6 +7,7 @@ A lightweight Chrome extension for hiding distracting YouTube interface elements
 - Hides selected items from the YouTube guide/sidebar using CSS.
 - Hides recommended videos in the right-side panel on video watch pages.
 - Hides front-page video grids, Shorts sections, and topic chips.
+- Includes a popup toggle for showing or hiding the distracting elements.
 
 ## Preview
 
@@ -29,5 +30,6 @@ A lightweight Chrome extension for hiding distracting YouTube interface elements
 ## Project Structure
 
 - `manifest.json`: Chrome extension manifest.
+- `popup.html`, `popup.css`, and `scripts/popup.js`: Extension popup and toggle behavior.
+- `scripts/content.js`: Applies the saved toggle state to YouTube pages.
 - `styles.css`: CSS injected into YouTube pages.
-- `hello.html` and `scripts/popup.js`: starter extension files.

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youtube Element Remover</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <img src="images/icon-48.png" alt="" class="icon">
+        <div>
+          <h1>Youtube Element Remover</h1>
+          <p id="statusText">Loading...</p>
+        </div>
+      </header>
+
+      <label class="toggleRow" for="toggle">
+        <span>
+          <strong>Hide distractions</strong>
+          <small>Recommendations, Shorts, and home feed</small>
+        </span>
+        <input id="toggle" type="checkbox" role="switch" aria-label="Hide distractions">
+        <span class="switch" aria-hidden="true"></span>
+      </label>
+
+      <p class="state">Status: <strong id="stateLabel">Loading</strong></p>
+    </main>
+
+    <script src="scripts/popup.js"></script>
+  </body>
+</html>
